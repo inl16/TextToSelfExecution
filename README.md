@@ -1,13 +1,5 @@
-# Sample Hardhat Project
+Ths is the Migration Machine
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a Hardhat Ignition module that deploys that contract.
+I made this at the end of my second year of law school 
 
-Try running some of the following tasks:
-
-```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat ignition deploy ./ignition/modules/Lock.js
-```
+It is the first version of a tool that can turn any piece of text into code that will self execute on the blockchain
