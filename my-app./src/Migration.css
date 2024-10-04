@@ -1,0 +1,110 @@
+/* MigrationActions.css */
+.migration-actions {
+    max-width: 800px;
+    background:"black";
+    margin: 20px auto;
+    background:"black";
+    padding: 20px;
+    padding: 20px;
+    background: #000; /* Dark background */
+    color: #0bf; /* Bright neon blue text */
+    border-radius: 8px;
+    box-shadow: 0 0 20px #0bf; /* Neon glow */
+  }
+  
+  .migration-actions h2, .migration-actions h3 {
+    text-align: center;
+    color: #0bf;
+  }
+  
+  .migration-actions button, .migration-actions input, .migration-actions select {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    background: #022; /* Slightly lighter dark background */
+    border: 1px solid #0bf; /* Neon blue border */
+    color: #0bf; /* Text color */
+    border-radius: 4px;
+    box-shadow: 0 0 10px #0bf; /* Neon glow */
+  }
+  
+  .migration-actions button {
+    background-color: #005fff; /* Tron blue */
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .migration-actions button:hover {
+    background-color: #007bff; /* Brighter on hover */
+  }
+  
+  .migration-actions input::placeholder, .migration-actions select::placeholder {
+    color: #0bf;
+  }
+  
+  .navigation-section, .feedback {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .navigation-button, .feedback button {
+    background-color: #f44336; /* Contrast color for action buttons */
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .navigation-button:hover, .feedback button:hover {
+    background-color: #d32f2f; /* Darker on hover */
+  }
+  
+  /* Enhancements for links navigation */
+  .navigation-links {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+  }
+  
+  .navigation-links li {
+    display: inline;
+    margin: 0 10px;
+  }
+  
+  .navigation-links a {
+    color: #0bf; /* Neon blue links */
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .navigation-links a:hover {
+    color: #08f; /* Brighter on hover */
+  }
+  /* Migration.css */
+.textInput {
+    width: 100%;
+    height: 150px;
+    background-color: #333;
+    color: white;
+    border: 1px solid #555;
+    border-radius: 4px;
+    padding: 10px;
+    font-family: monospace;
+  }
+  
+  .selfExecuteButton {
+    background-color: #444;
+    color:  #007bff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-left: 10px;
+    color: #0bf
+  }
+  
+  
