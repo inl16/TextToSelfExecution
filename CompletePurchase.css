@@ -1,0 +1,49 @@
+/* CompletePurchase.css */
+.complete-purchase-interface {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #111;
+    color: #0bf;
+    font-family: 'Orbitron', sans-serif;
+    padding: 30px;
+}
+
+.token-input {
+    padding: 10px;
+    margin: 20px 0;
+    font-size: 1em;
+    border: 2px solid #0bf;
+    background-color: #000;
+    color: #0bf;
+    border-radius: 5px;
+    width: 80%;
+    max-width: 300px;
+}
+
+.complete-button, .rwa-interface-button {
+    padding: 12px 24px;
+    border: 2px solid #0bf;
+    background-color: transparent;
+    color: #0bf;
+    font-family: 'Orbitron', sans-serif;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    border-radius: 5px;
+    box-shadow: 0 0 10px #0bf;
+    margin-top: 20px;
+}
+
+.complete-button:hover, .rwa-interface-button:hover {
+    background-color: #0bf;
+    color: #000;
+}
+
+.feedback {
+    margin-top: 20px;
+    color: #f44336; /* Red for error feedback */
+    font-size: 1em;
+    text-align: center;
+}

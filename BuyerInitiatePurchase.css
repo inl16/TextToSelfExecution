@@ -1,0 +1,70 @@
+/* Main styling for the Buyer Initiate Purchase page */
+.purchase-interface {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #111;
+    color: #0bf;
+    font-family: 'Orbitron', sans-serif;
+    padding: 30px;
+}
+
+/* Input styling for entering the Token ID */
+.token-input {
+    padding: 10px;
+    margin: 20px 0;
+    font-size: 1em;
+    border: 2px solid #0bf;
+    background-color: #000;
+    color: #0bf;
+    border-radius: 5px;
+    width: 80%;
+    max-width: 300px;
+}
+
+/* Button styling for initiating purchase */
+.purchase-button {
+    padding: 12px 24px;
+    border: 2px solid #0bf;
+    background-color: transparent;
+    color: #0bf;
+    font-family: 'Orbitron', sans-serif;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    border-radius: 5px;
+    box-shadow: 0 0 10px #0bf;
+}
+
+.purchase-button:hover {
+    background-color: #0bf;
+    color: #000;
+}
+
+/* Styling for feedback messages (e.g., error or success feedback) */
+.feedback {
+    margin-top: 20px;
+    color: #f44336; /* Red color for error feedback */
+    font-size: 1em;
+    text-align: center;
+}
+
+/* Button styling for navigating to the View Escrow page */
+.view-escrow-button {
+    margin-top: 30px;
+    padding: 12px 24px;
+    border: 2px solid #0bf;
+    background-color: transparent;
+    color: #0bf;
+    font-family: 'Orbitron', sans-serif;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    border-radius: 5px;
+    box-shadow: 0 0 10px #0bf;
+}
+
+.view-escrow-button:hover {
+    background-color: #0bf;
+    color: #000;
+}
